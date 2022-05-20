@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   const handleChange = (e) => {
-    setSearch(e.targe.value);
+    setSearch(e.target.value);
   };
 
   const filteredCoins = coins.filter((coin) =>
